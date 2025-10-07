@@ -1,0 +1,77 @@
+
+
+section#about {
+  background-color:  rgba(72, 71, 71, 0.577);
+  color: white;
+  text-align: justify;
+  padding: 100px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.app{
+  background-color: black;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap; /* responsive on small screens */
+  /* max-width: 1000px; */
+  /* width: 100%; */
+  align-items: center;
+  gap: 30px;
+}
+
+.about-image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%; /* circle photo */
+  border: 3px solid pink;
+  box-shadow: 0px 4px 12px rgba(255, 105, 180, 0.5);
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.about-text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #3acdd0;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+section#about button {
+  padding: 10px 20px;
+  background-color: #26d420;
+  color:black;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+section#about button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+section#about button a {
+  text-decoration: none;  /* remove underline */
+  color: black;           /* match button text color */
+  font-weight: 600;
+}
+
+section#about button a:hover {
+  color: black;            /* keep text color consistent on hover */
+}
