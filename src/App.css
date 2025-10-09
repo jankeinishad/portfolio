@@ -49,3 +49,8 @@ section {
   margin-top: 0;
   padding-top: 0;
 }
+/* Adjust for fixed header and footer */
+main {
+  margin-top: 80px;     /* space below header */
+  padding-bottom: 80px; /* space above footer */
+}

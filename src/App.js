@@ -1,6 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import './index.css';
+import './Header.css';
+import './Footer.css';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -10,7 +13,7 @@ import Skills from './components/Skills';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <div className="App">
         <Header />
         <main>
