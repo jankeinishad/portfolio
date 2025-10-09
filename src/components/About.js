@@ -7,7 +7,8 @@ const About = () => {
       <div className="about-container">
         {/* Left Side - Image */}
         <div className="about-image">
-          <img src="jaankei.jpeg" alt="My Profile" />
+          <img src={`${process.env.PUBLIC_URL}/jaankei.jpeg`} alt="My Profile" />
+
         </div>
 
         {/* Right Side - Text */}

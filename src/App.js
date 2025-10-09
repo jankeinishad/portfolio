@@ -15,11 +15,13 @@ function App() {
         <Header />
         <main>
           <Routes>
-            <Route path="/" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/skills" element={<Skills />} />
-          </Routes>
+  <Route index element={<About />} /> 
+  <Route path="/" element={<About />} />
+  <Route path="/projects" element={<Projects />} />
+  <Route path="/skills" element={<Skills />} />
+  <Route path="/contact" element={<Contact />} />
+</Routes>
+
         </main>
         <Footer /> {/* Always visible */}
       </div>
