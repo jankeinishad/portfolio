@@ -1,15 +1,17 @@
 
 
 section#about {
-  background-color:  rgba(72, 71, 71, 0.577);
+  background-color: rgba(15, 14, 14, 0.889);
   color: white;
   text-align: justify;
   padding: 100px;
-  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  height: auto;
 }
 .app{
   background-color: black;

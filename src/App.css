@@ -1,56 +1,24 @@
-.App {
-  text-align: center;
+/* Reset and layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
   background-color: black;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-/* Remove default browser spacing */
-body, html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Ensure sections touch the header */
-section {
-  margin-top: 0;
-  padding-top: 0;
-}
-/* Adjust for fixed header and footer */
+/* Main container */
 main {
-  margin-top: 80px;     /* space below header */
-  padding-bottom: 80px; /* space above footer */
+  margin-top: 80px; /* to make room for the header */
+  min-height: calc(100vh - 160px); /* fill screen minus header & footer height */
+  padding-bottom: 0; /* no gap at bottom */
+  background-color: black;
+  padding-bottom: 0;
+}
+
+/* Optional: last section spacing fix if content touches footer */
+section:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 60px; /* ensures text doesn't hide behind footer */
 }

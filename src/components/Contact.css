@@ -1,7 +1,8 @@
 #contact {
   padding: 100px;
-  
-  background-color: rgba(72, 71, 71, 0.577);
+  margin: auto;
+  height: auto;
+  background-color: rgba(15, 14, 14, 0.889);
   color: white;
   text-align: center;
 }

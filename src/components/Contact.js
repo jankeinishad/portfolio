@@ -62,8 +62,13 @@ const Contact = () => {
             required
           />
           <button type="submit">Send Message</button>
-        </form>
+        </form>          <br />
+          <br />
+          <br />
       </div>
+                <br />
+          <br />
+          <br />
     </section>
   );
 };

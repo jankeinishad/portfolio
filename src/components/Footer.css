@@ -3,7 +3,7 @@
   color: white;
   padding: 15px 20px;
   text-align: center;
-  position: fixed;      /* stays at bottom */
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -30,9 +30,4 @@
 
 .social-links a:hover {
   color: #26d420;
-}
-
-/* Prevent content from hiding behind footer */
-main {
-  padding-bottom: 80px; /* adjust based on footer height */
 }

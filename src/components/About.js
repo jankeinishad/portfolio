@@ -27,6 +27,8 @@ const About = () => {
             ownership of projects end-to-end. My goal is to keep learning, stay adaptable,
             and contribute to building impactful products that solve real-world problems.
           </p>
+          <br />
+          <br />
 
           <button id="button">
             <a
@@ -37,6 +39,15 @@ const About = () => {
               Download CV
             </a>
           </button>
+          <br />
+          <br />
+          <br />
+                    <br />
+          <br />
+          <br />
+                    <br />
+          <br />
+          <br />
         </div>
       </div>
     </section>
