@@ -22,3 +22,13 @@ section:last-of-type {
   margin-bottom: 0;
   padding-bottom: 60px; /* ensures text doesn't hide behind footer */
 }
+section {
+  min-height: calc(100vh - 140px); /* full height minus header (80px) + footer (60px) */
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center vertically */
+  align-items: center;
+  box-sizing: border-box;
+}
+

@@ -14,19 +14,27 @@ const About = () => {
         {/* Right Side - Text */}
         <div className="about-text">
           <h2>About Me</h2>
-          <p>
-            I’m a passionate Full-Stack Developer with experience in building scalable,
-            user-friendly, and efficient web applications. Skilled in front-end development,
-            I enjoy turning ideas into functional digital solutions. My expertise spans
-            technologies like JavaScript, React, PHP, and MySQL, with a strong
-            focus on clean code, performance optimization, and intuitive UI.
-          </p>
+ <p>
+  I’m a passionate <strong>Full-Stack Developer</strong> with experience in building scalable,
+  user-friendly, and efficient web applications. Skilled in front-end development,
+  I enjoy turning ideas into functional digital solutions. My expertise spans
+  technologies like <strong>JavaScript, React, PHP, and MySQL</strong>, with a strong
+  focus on clean code, performance optimization, and intuitive UI.
+</p>
 
-          <p>
-            I thrive in collaborative environments but am equally comfortable taking
-            ownership of projects end-to-end. My goal is to keep learning, stay adaptable,
-            and contribute to building impactful products that solve real-world problems.
-          </p>
+<p>
+  I thrive in collaborative environments but am equally comfortable taking
+  ownership of projects end-to-end. My goal is to keep learning, stay adaptable,
+  and contribute to building impactful products that solve real-world problems.
+</p>
+
+<p>
+  Beyond coding, I’m also a <strong>creative artist</strong> who enjoys drawing and digital sketching — 
+  it helps me bring imagination and design thinking into my development work. 
+  I’m also a <strong>Taekwondo athlete</strong>, which has taught me discipline, focus, and perseverance — 
+  qualities I apply both in life and in my coding journey.
+</p>
+
           <br />
           <br />
 
